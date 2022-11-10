@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Navbar.css"
-import { useAuth0 } from "@auth0/auth0-react";
+import { useAuth0, User } from "@auth0/auth0-react";
+import { useEffect } from 'react';
 
 const Navbar = () => {
-const { loginWithRedirect,logout,isAuthenticated } = useAuth0();
+const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
   return (
     <div className='Navbar'>
         <div className='logo-select'>
@@ -55,14 +56,15 @@ const { loginWithRedirect,logout,isAuthenticated } = useAuth0();
         </div>
         <div className='login-signup-addcart'>
             <div style={{display:"flex"}}>
+              { isAuthenticated && <p>{user.name}</p> }  
             
             {
-                isAuthenticated ? <li><button onClick={() => logout({ returnTo: window.location.origin })}>
+                isAuthenticated ? <button onClick={() => logout({ returnTo: window.location.origin })}>
                 Log Out
-              </button></li>
-              : <li>
+              </button>
+              : 
               <button onClick={() => loginWithRedirect()}>Log In</button>
-              </li>
+              
             }
 
             

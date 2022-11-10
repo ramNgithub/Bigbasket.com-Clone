@@ -1,0 +1,10 @@
+.BankOffers{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 40px;
+}
+.BankOffers>div>img{
+    width: 280px;
+    /* margin-left:20px ; */
+}
