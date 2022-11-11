@@ -1,4 +1,4 @@
-.Sliderfirst {
+/* .Sliderfirst {
     width: 85%;
     margin: 0 auto;
     margin-top: 120px;
@@ -9,9 +9,9 @@
   }
   .slick-list {
     margin: 0 -10px;
-  }
+  } */
   
-  .card {
+  /* .card {
     border: 1px solid #fff;
     background:#fff;
     border-radius: 8px;
@@ -20,10 +20,10 @@
     height: 550px;
     color: black;
     cursor: pointer;
-    width:100%;
-  }
+    width:80%;
+  } */
   
-  .card-top h1 {
+  /* .card-top h1 {
     font-size: 0.9rem;
     margin: 20px;
   }
@@ -51,7 +51,7 @@
     left: 0;
     right: 0;
     height: 2px;
-  }
+  } */
 
 
   .slider{

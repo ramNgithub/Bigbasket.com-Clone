@@ -1,0 +1,55 @@
+#footer{
+    /* border:solid red; */
+    height: 270px;
+    
+    margin-bottom: -20px;
+    display: flex;
+   }
+   #footer>div:nth-child(1){
+       /* border:solid blue; */
+       height:100%;
+       width:250px;
+       
+   }
+   
+   #footer>div:nth-child(2){
+       /* border:solid blue; */
+       height:100%;
+       width:280px;
+       margin-left: 20px;
+       
+   }
+   #footer>div:nth-child(3){
+       /* border:solid blue; */
+       height: 100%;
+       width:980px;
+      
+   }
+   .smollWord{
+       font-size: 12px;
+       margin-left: 40px;
+       line-height: 20px;
+      cursor: pointer;
+   }
+   #footer>div:nth-child(3)>div{
+       /* border:solid red; */
+       height:20px;
+       width:350px;
+       display: flex;
+       justify-content: space-between;
+       margin-left: 250px;
+   }
+   .socialIcon{
+       width:20px;
+       cursor: pointer;
+   }
+   #footer>div:nth-child(3)>p{
+       font-size: 25px;
+       margin-left: 250px;
+       margin-top: 50px;
+   }
+   
+   #lastTuch{
+       font-size: 13px;
+       cursor: pointer;
+   }
