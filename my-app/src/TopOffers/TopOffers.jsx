@@ -4,7 +4,7 @@ import "./TopOffers.css"
 const TopOffers = () => {
   return (
     <div>
-        <h2 style={{marginTop:"50px"}}>Top Offers</h2>
+        <h1 style={{marginTop:"50px"}}>Top Offers</h1>
     <div className='TopOffers'>
        
         <div>

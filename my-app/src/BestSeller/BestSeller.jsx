@@ -4,9 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { dataDigitalBestSeller } from './BestSellerData';
 import "./BestSeller.css"
+import {StarIcon} from "@chakra-ui/icons"
 
-const BestSeller = () => {
-
+const BestSeller = ({handelclick}) => {
+    
     const [defaultImage, setDefaultImage] = useState({});
     const settings = {
       dots: true,
@@ -50,10 +51,13 @@ const BestSeller = () => {
         
       }));
     };
+   
+    
+    
   return (
-    <div>
+    <div style={{marginTop:"-50px"}}>
         <div className="Sliderfirst">
-        <h1 style={{marginTop:"50px"}}><i>Best Sellers</i></h1>
+        <h1 style={{marginTop:"30px"}}>Best Sellers</h1>
         
       
       <Slider {...settings}>
@@ -73,9 +77,12 @@ const BestSeller = () => {
             </div>
             <div className="card-bottom">
               <h3>{item.price}</h3>
-              <span className="category">{item.category}</span>
+              <h4 className="category">
+              Rating : {item.rating} <StarIcon marginBottom="6px"/>
+              </h4>
+             
             </div>
-            <button>ADD</button>
+            <button onClick={()=>handelclick(item)} className='Add-btn'>ADD</button>
           </div>
         ))}
       </Slider>

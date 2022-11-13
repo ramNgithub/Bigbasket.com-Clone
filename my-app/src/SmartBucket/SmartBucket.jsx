@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { dataDigitalBestSeller } from './SmartBucketData';
-
+import {StarIcon} from "@chakra-ui/icons"
 const SmartBucket = () => {
     const [defaultImage, setDefaultImage] = useState({});
     const settings = {
@@ -51,7 +51,7 @@ const SmartBucket = () => {
   return (
     <div>
         <div className="Sliderfirst">
-        <h1 style={{marginTop:"50px"}}><i >My Smart Basket</i></h1>
+        <h1 style={{marginTop:"50px"}}>My Smart Basket</h1>
         
       
       <Slider {...settings}>
@@ -71,9 +71,11 @@ const SmartBucket = () => {
             </div>
             <div className="card-bottom">
               <h3>{item.price}</h3>
-              <span className="category">{item.category}</span>
+              <h4 className="category">
+              Rating : {item.rating} <StarIcon marginBottom="6px"/>
+              </h4>
             </div>
-            <button>ADD</button>
+            <button className='Add-btn'>ADD</button>
           </div>
         ))}
       </Slider>

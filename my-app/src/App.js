@@ -15,8 +15,18 @@ import BeautyNhygiene from './BeautyNhygiene/BeautyNhygiene';
 import HomeNkitchen from './HomeNkitchen/HomeNkitchen';
 import BottomAdvertise from './BottomAdvertise/BottomAdvertise';
 import Footer from './Footer/Footer';
+import { useState } from 'react';
+
 
 function App() {
+  
+  const [cart,setCart]=useState([])
+  const handelclick=(item)=>{
+    setCart([...cart,item])
+   }
+
+  
+ 
   return (
     <div className="App">
       
@@ -25,7 +35,7 @@ function App() {
       <MultiButtons/>
       <SmartBucket/>
       <BankOffers/>
-      <BestSeller/>
+      <BestSeller handelclick={handelclick}/>
       <TopOffers/>
       <FruitsNvegiT/>
       <DailyStaples/>

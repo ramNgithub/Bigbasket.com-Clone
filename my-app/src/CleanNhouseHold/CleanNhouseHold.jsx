@@ -3,7 +3,7 @@ import React from 'react'
 const CleanNhouseHold = () => {
   return (
     <div>
-        <h2 style={{marginTop:"50px"}}>Cleaning & Household</h2>
+        <h1 style={{marginTop:"50px"}}>Cleaning & Household</h1>
     <div style={{cursor:"pointer"}} className="TopOffers">
        
         <div>

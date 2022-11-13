@@ -5,7 +5,7 @@ const BankOffers = () => {
   return (
     <div>
     <div style={{marginTop:"50px",marginBottom:"-20px"}}>
-         <h2>Bank Offers</h2>
+         <h1>Bank Offers</h1>
     </div>
     <div className='BankOffers'>
         
