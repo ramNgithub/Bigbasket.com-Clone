@@ -4,7 +4,7 @@ import React from 'react'
 const DailyStaples = () => {
   return (
     <div>
-        <h2 style={{marginTop:"50px"}}>Your Daily Staples</h2>
+        <h1 style={{marginTop:"50px"}}>Your Daily Staples</h1>
     <div  className='FruitsNvegiT'>
       <div className='ChildDiv'>
         <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_atta-flour-staplesStorefront_m_480_251022_01.jpg" alt="Not-Found" />

@@ -4,7 +4,7 @@ import "./Beverages.css"
 const Beverages = () => {
   return (
     <div>
-        <h2 style={{marginTop:"50px"}}>Beverages</h2>
+        <h1 style={{marginTop:"50px"}}>Beverages</h1>
     <div className='Beverages'>
         <div >
             <img style={{height:"450px",cursor:"pointer"}} src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/c9120807-7db5-4f39-9895-3b03dee91c54/hp_hot-sips-beveragesStorefront_m_251022_560x378_01.jpg" alt="Not-Found" />

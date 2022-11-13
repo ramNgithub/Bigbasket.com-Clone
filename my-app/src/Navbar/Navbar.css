@@ -12,11 +12,20 @@
 .search-offer{
     /* border: solid blue; */
     width: 700px;
-    
+    height: 20px;
+}
+.ddddd{
+  /* border:solid red; */
+ margin-left: 50px;
 }
 .login-signup-addcart{
     /* border: solid ; */
+    height: 70px;
+    margin-top: 40px;
+    margin-left: -30px;
     width: 200px;
+    display: flex;
+  
 }
 .website_logo{
    height: 150px;
@@ -24,11 +33,29 @@
    
 }
 
+.Log-btn{
+  height: 25px;
+  padding: 0px 20px;
+  margin-top: 40px;
+ 
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  /* border: solid red; */
+  margin-right: 20px;
+}
+.Log-btn:hover{
+  background-color: white;
+  color:  black;
+  font-weight: bold;
+  cursor: pointer;
+}
 .search-input{
     padding: 8px;
     width: 600px;
     margin-top: 60px;
     margin-bottom: 25px;
+   
 }
 .offer_tag{
     margin-right: 570px;

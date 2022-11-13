@@ -3,7 +3,7 @@ import React from 'react'
 const HomeNkitchen = () => {
   return (
     <div>
-        <h2 >Home & Kitchen Essentials</h2>
+        <h1 >Home & Kitchen Essentials</h1>
     <div  className='FruitsNvegiT'>
       <div className='ChildDiv'>
         <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/dd3c4480-6322-4f07-a1b2-daab29bae452/hp_under-149-GMStorefront(Till10th)_m_251022_01.jpg" alt="Not-Found" />

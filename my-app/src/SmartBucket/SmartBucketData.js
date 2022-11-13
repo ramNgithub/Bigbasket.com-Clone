@@ -1,6 +1,7 @@
 export const dataDigitalBestSeller = [
     {
       id: 1,
+      rating:4.8,
       title: 'Capsicum - Green (Loose)',
       price: '500 g - Rs 46.25',
       category: 'FormFit High Impact Ivy Sports Bra',
@@ -9,6 +10,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 2,
+      rating:4,
       title: 'Coriander Leaves',
       price: '100 g - Rs 10.35',
       category: 'Vitals Running T-Shirt',
@@ -17,6 +19,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 3,
+      rating:4.5,
       title: 'Cucumber (Loose)',
       price: '1 kg - Rs 19.50',
       category: 'FormFit High Impact Ivy Sports Bra',
@@ -25,6 +28,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 4,
+      rating:3.9,
       title: 'Ladies Fingers (Loose)',
       price: '500 g - Rs 27.50',
       category: 'Seamless Omber Tights',
@@ -33,6 +37,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 5,
+      rating:4,
       title: 'Onion (Loose)',
       price: '1kg - Rs 44.00',
       category: 'Halftone Print Sport Bra',
@@ -41,6 +46,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 6,
+      rating:4.2,
       title: 'Tomato - Hybrid (Loose)',
       price: '1 kg - Rs 22.50',
       category: 'LAYR Solid Sweatshirt',
@@ -49,6 +55,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 7,
+      rating:4.6,
       title: 'Potato (Loose)',
       price: '1 kg - Rs 47.00',
       category: 'Flexoft Men`s Slim Lounge Joggers',
@@ -57,6 +64,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 8,
+      rating:3.9,
       title: 'Beans - Haricot (Loose)',
       price: '500 g - Rs 30.25',
       category: 'Neon Highlight Joggers',
@@ -66,6 +74,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 9,
+      rating:4,
       title: 'Pure Ghee/Tuppa',
       price: '1 L Pouch - Rs 610.00',
       category: 'Neon Highlight Joggers',
@@ -75,6 +84,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 10,
+      rating:4,
       title: 'Iodized',
       price: '1 kg Pouch - Rs 27.72',
       category: 'Neon Highlight Joggers',
@@ -84,6 +94,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 11,
+      rating:4,
       title: 'Sun Lite - Sunflower Refined Oil',
       price: '1 L Pouch - Rs 176.00',
       category: 'Neon Highlight Joggers',
@@ -93,6 +104,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 12,
+      rating:4,
       title: 'Cumin/Jeera/Jeerige - Whole',
       price: '200 g Pouch- Rs 78.00',
       category: 'Neon Highlight Joggers',
@@ -102,6 +114,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 13,
+      rating:4,
       title: 'Sona Masoori Raw Rice/Akki - Super Premium, 12 + Months Old',
       price: '25 g Bag- Rs 1475.00',
       category: 'Neon Highlight Joggers',
@@ -111,6 +124,7 @@ export const dataDigitalBestSeller = [
     },
     {
       id: 14,
+      rating:4.5,
       title: 'Sugar/Sakkare',
       price: '5 kg - Rs 213.00',
       category: 'Neon Highlight Joggers',

@@ -1,10 +1,16 @@
 import React from 'react'
 import "./Navbar.css"
-import { useAuth0, User } from "@auth0/auth0-react";
+import {useAuth0} from "@auth0/auth0-react"
+
 
 
 const Navbar = () => {
-const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
+
+  const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
+
+
+
+
   return (
     <div className='Navbar'>
         <div className='logo-select'>
@@ -12,22 +18,22 @@ const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
             <ul className="nav-links">
 
 <li>
-    <a href="#" className="desktop-item">Mega Menu</a>
+    <a href="#" className="desktop-item">SHOP BY CATEGORY</a>
     
     <div className="mega-box">
       <div className="content">
         
         <div className="row">
-          <header>Design Services</header>
+          
           <ul className="mega-links">
-            <li><a href="#">Graphics</a></li>
-            <li><a href="#">Vectors</a></li>
-            <li><a href="#">Business cards</a></li>
-            <li><a href="#">Custom logo</a></li>
+            <li><a href="#">Fruits and vegitables</a></li>
+            <li><a href="#">Beverage</a></li>
+            <li><a href="#">Baby Care</a></li>
+            <li><a href="#">Beauty & Hygenic</a></li>
           </ul>
         </div>
         <div className="row">
-          <header>Email Services</header>
+          
           <ul className="mega-links">
             <li><a href="#">Personal Email</a></li>
             <li><a href="#">Business Email</a></li>
@@ -54,25 +60,30 @@ const { loginWithRedirect,logout,isAuthenticated,user } = useAuth0();
             <img width="27px" style={{marginBottom:"-10px",marginLeft:"-30px"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlEO3Cu7FDawaKrxHFHUJgDOwOaigjIGMMoA&usqp=CAU" alt="Not-Found" />
             <button className='offer_tag'>OFFERS</button>
         </div>
+        
+        <h4 className='email'>{ isAuthenticated && <p style={{marginTop:"60px",marginLeft:"-50px"}}>{user.name}</p> } </h4>
         <div className='login-signup-addcart'>
             <div style={{display:"flex"}}>
-              { isAuthenticated && <p>{user.name}</p> }  
+               
             
+
             {
-                isAuthenticated ? <button onClick={() => logout({ returnTo: window.location.origin })}>
-                Log Out
+                isAuthenticated ? <button className='Log-btn' onClick={() => logout({ returnTo: window.location.origin })}>
+                Logout
               </button>
               : 
-              <button onClick={() => loginWithRedirect()}>Log In</button>
+              <button className='Log-btn' onClick={() => loginWithRedirect()}>Login</button>
               
             }
 
             
             
             </div>
-            <div>
-            <img width="50px"style={{marginRight:'140px',marginTop:"20px"}} src="https://www.kindpng.com/picc/m/458-4587840_red-shopping-basket-icon-hd-png-download.png" alt="Not-Found" />
+            <div className='ddddd'>
+            <img  width="30px" style={{marginRight:'140px',marginTop:"40px"}} src="https://www.kindpng.com/picc/m/458-4587840_red-shopping-basket-icon-hd-png-download.png" alt="Not-Found" />
+            <h4 style={{marginTop:"-27px",marginLeft:"-100px"}}>0</h4>
             </div>
+           
         </div>
        
         
