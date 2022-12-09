@@ -1,0 +1,14 @@
+.FruitsNvegiT{
+    display: flex;
+    margin-left: 115px;
+    margin-top: 50px;
+    gap: 20.5px;
+}
+.FruitsNvegiT>div>img{
+    width: 200px;
+}
+
+.ChildDiv:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
