@@ -1,0 +1,7 @@
+.MultiButton{
+    display: flex;
+    gap: 28px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: -60px;
+}

@@ -1,0 +1,10 @@
+.TopOffers{
+    display: flex;
+    gap: 31px;
+    margin-left: 115px;
+    margin-top: 50px;
+}
+.TopOffers>div>img{
+    width: 300px;
+    cursor: pointer;
+}
